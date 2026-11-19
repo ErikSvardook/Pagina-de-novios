@@ -1,5 +1,5 @@
 /* ============================================================
-   story.css — SECCIÓN "NUESTRA HISTORIA"
+   story.css - SECCIÓN "NUESTRA HISTORIA"
    ------------------------------------------------------------
    Tarjeta de cristal (blur) con el relato de la pareja.
    No depende de JavaScript.
@@ -21,7 +21,7 @@
     width: 100%;
     max-width: 850px;                    /* máximo ancho en pantallas grandes */
     background: rgba(255,255,255,0.75); /* blanco al 75% = efecto translúcido */
-    backdrop-filter: blur(12px);         /* desenfoca lo que está DETRÁS → cristal */
+    backdrop-filter: blur(12px);         /* desenfoca lo que está DETRÁS, efecto cristal */
     border-radius: 35px;
     padding: 70px 50px;
     box-shadow: 0 25px 60px rgba(0,0,0,0.08);

@@ -1,5 +1,5 @@
 /* ============================================================
-   phrases.css — TARJETA DE FRASES
+   phrases.css - TARJETA DE FRASES
    ------------------------------------------------------------
    Estiliza la tarjeta .phrase-card y el <p id="phrase">
    que cambia su texto cada 2 segundos (JS/phrases.js).
@@ -7,7 +7,7 @@
 
 .phrase-card {
     text-align: center;
-    /* Fondo degradado horizontal: azul fuerte -> azul claro.
+    /* Fondo degradado horizontal: azul fuerte a azul claro.
        El texto blanco resalta sobre este fondo. */
     background: linear-gradient(to right, #5DADE2, #AED6F1);
     color: white;

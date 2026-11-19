@@ -1,5 +1,5 @@
 /* ============================================================
-   general.css — ESTILOS BASE / GLOBALES
+   general.css - ESTILOS BASE / GLOBALES
    ------------------------------------------------------------
    Reglas generales que se aplican a toda la página: fondo,
    tipografía, botones reutilizables y tarjetas.
@@ -14,7 +14,7 @@ body {
     /* Fondo decorativo en 3 capas (una encima de otra):
        1) radial-gradient esquina sup. izq. rojo suave
        2) radial-gradient esquina inf. der. azul suave
-       3) linear-gradient vertical: rosa → casi blanco → azul   */
+       3) linear-gradient vertical: rosa, casi blanco y azul   */
     background:
         radial-gradient(circle at top left, rgba(231, 8, 45, 0.25), transparent 25%),
         radial-gradient(circle at bottom right, rgba(2, 147, 244, 0.18), transparent 30%),

@@ -1,5 +1,5 @@
 // ============================================================
-// album.js — ÁLBUM DE FOTOS CON EFECTO LIBRO
+// album.js - ÁLBUM DE FOTOS CON EFECTO LIBRO
 // ------------------------------------------------------------
 // Lógica del "libro" que vemos en la sección Nuestro álbum.
 // - Arreglo `album`: lista de fotos (img) con su leyenda (text).
@@ -240,7 +240,7 @@ export function initAlbum(){
 
   // -------------------------------
   // 4) render(): muestra la foto que toca
-  //    - Agrega la clase .flip -> efecto de "pasar la hoja" (rotateY)
+  //    - Agrega la clase .flip, efecto de "pasar la hoja" (rotateY)
   //    - Espera 400ms (duración de la animación) con setTimeout
   //    - Cambia el src y el texto
   //    - Quita .flip para que la página vuelva a su posición

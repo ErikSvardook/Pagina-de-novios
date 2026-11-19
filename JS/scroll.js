@@ -1,11 +1,11 @@
 // ============================================================
-// scroll.js — ANIMACIÓN DE APARICIÓN AL HACER SCROLL
+// scroll.js - ANIMACIÓN DE APARICIÓN AL HACER SCROLL
 // ------------------------------------------------------------
 // Hace que las tarjetas con clase .fade aparezcan suavemente
 // (opacidad + deslizamiento) cuando entran a la pantalla.
 // Combina con CSS/scroll.css:
-//   .fade        -> invisible (opacity 0, desplazada 30px abajo)
-//   .fade.show   -> visible  (opacity 1, desplazada 0px)
+//   .fade        invisible (opacity 0, desplazada 30px abajo)
+//   .fade.show   visible  (opacity 1, desplazada 0px)
 // La clase .show la agrega aquí, en JavaScript, en el momento
 // justo en que la tarjeta entra al área visible.
 // ============================================================
@@ -27,7 +27,7 @@ export function initScroll(){
 
       // window.innerHeight - 100 = "poco antes de que la tarjeta
       // llegue al borde inferior". Si la tarjeta está arriba de esa
-      // línea, ya es visible para el usuario → se muestra.
+      // línea, ya es visible para el usuario y se muestra.
       if (top < window.innerHeight - 100) {
         el.classList.add('show');
       }

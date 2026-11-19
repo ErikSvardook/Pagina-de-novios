@@ -1,5 +1,5 @@
 /* ============================================================
-   quiz.css — MODAL DEL QUIZ
+   quiz.css - MODAL DEL QUIZ
    ------------------------------------------------------------
    Trabaja con JS/quiz.js.
    El modal es un fondo oscuro (fixed, cubre la pantalla) con una
@@ -53,7 +53,7 @@
     }
 }
 
-/* ---------- BOTÓN DE CERRAR (✕) ---------- */
+/* ---------- BOTÓN DE CERRAR (X) ---------- */
 .close-quiz {
     position: absolute;    /* anclado dentro de .quiz-box */
     top: 20px;

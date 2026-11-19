@@ -1,5 +1,5 @@
 /* ============================================================
-   moments.css — CARRUSEL INFINITO DE MOMENTOS
+   moments.css - CARRUSEL INFINITO DE MOMENTOS
    ------------------------------------------------------------
    Trabaja con JS/moments.js (que crea las tarjetas) y la
    animación keyframes scrollGallery de abajo.
@@ -94,7 +94,7 @@
 }
 
 .moment-card.active img {
-    opacity: 0.4;                       /* la foto se aclara… */
+    opacity: 0.4;                       /* la foto se aclara */
 }
 
 .moment-card.active .moment-overlay {
@@ -105,7 +105,7 @@
 /* La franja se mueve desde translateX(0) hasta translateX(-50%).
    Como los momentos están DUPLICADOS (moments.js), la segunda
    mitad es idéntica a la primera: al llegar a -50% la escena se
-   ve igual que al inicio → el movimiento parece infinito. */
+   ve igual que al inicio, y el movimiento parece infinito. */
 @keyframes scrollGallery {
     from {
         transform: translateX(0);

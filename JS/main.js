@@ -1,5 +1,5 @@
 // ============================================================
-// main.js — PUNTO DE ENTRADA de toda la página
+// main.js - PUNTO DE ENTRADA de toda la página
 // ------------------------------------------------------------
 // Este es el "orquestador": no contiene lógica propia, solo
 // importa los demás módulos y los enciende uno por uno.

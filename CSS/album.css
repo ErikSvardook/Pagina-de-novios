@@ -1,10 +1,10 @@
 /* ============================================================
-   album.css — ÁLBUM CON EFECTO LIBRO
+   album.css - ÁLBUM CON EFECTO LIBRO
    ------------------------------------------------------------
    Trabaja con JS/album.js.
    El "libro" tiene dos piezas superpuestas:
-     - .book-cover -> la portada (con el título)
-     - .book-page  -> la página interior (foto + leyenda)
+     - .book-cover: la portada (con el título)
+     - .book-page: la página interior (foto + leyenda)
    Al abrir, la portada gira hacia la izquierda (rotateY -160°)
    con un efecto 3D gracias a `perspective`.
    ============================================================ */
@@ -21,7 +21,7 @@
     color: #2C3E50;
 }
 
-/* ---------- CONTENEDOR (botón ❮ + libro + botón ❯) ---------- */
+/* ---------- CONTENEDOR (botón anterior + libro + botón siguiente) ---------- */
 .book-container {
     display: flex;
     align-items: center;        /* centra verticalmente */
@@ -42,7 +42,7 @@
 .book-cover {
     position: absolute;
     inset: 0;                       /* ocupa todo el libro */
-    background: linear-gradient(     /* degradado diagonal azul → morado (romántico) */
+    background: linear-gradient(     /* degradado diagonal azul a morado (romántico) */
             135deg,
             #5DADE2,
             #AF7AC5
@@ -120,7 +120,7 @@
     color: #34495E;
 }
 
-/* ---------- BOTONES ❮ ❯ ---------- */
+/* ---------- BOTONES ANTERIOR Y SIGUIENTE ---------- */
 .album-btn {
     width: 60px;
     height: 60px;

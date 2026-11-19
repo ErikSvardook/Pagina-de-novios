@@ -1,12 +1,12 @@
 // ============================================================
-// moments.js — CARRUSEL INFINITO DE MOMENTOS IMPORTANTES
+// moments.js - CARRUSEL INFINITO DE MOMENTOS IMPORTANTES
 // ------------------------------------------------------------
 // Rellena el div #carousel con tarjetas de fotos.
 // Truco del carrusel infinito:
 //   1. Se duplican los momentos ([...moments, ...moments]).
 //   2. CSS anima la franja completa con translateX(-50%)
 //      (equivale a un "recorrido", y al llegar a -50% el
-//      contenido vuelve a ser idéntico → parece continuo).
+//      contenido vuelve a ser idéntico y parece continuo).
 //   3. Al hacer clic en una tarjeta, se agranda y muestra el texto.
 // ============================================================
 export function initMoments(){
@@ -92,7 +92,7 @@ export function initMoments(){
     // Referencia al contenedor donde se van a agregar las tarjetas
     const carousel = document.getElementById("carousel");
 
-    // Se duplican los momentos -> la animación de 50% se cierra en loop
+    // Se duplican los momentos: la animación de 50% se cierra en loop
     const duplicatedMoments = [...moments, ...moments];
 
     // -------------------------------
@@ -116,7 +116,7 @@ export function initMoments(){
         `;
 
         // -------------------------------
-        // 3) Clic en la tarjeta -> expandir y mostrar el texto
+        // 3) Clic en la tarjeta: expandir y mostrar el texto
         //    - stopPropagation: evita que el clic suba y dispare
         //      el listener del documento (que cierra todo).
         //    - Se guarda si esta tarjeta YA era la activa para

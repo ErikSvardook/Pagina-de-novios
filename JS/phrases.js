@@ -1,5 +1,5 @@
 // ============================================================
-// phrases.js — FRASES QUE CAMBIAN SOLAS
+// phrases.js - FRASES QUE CAMBIAN SOLAS
 // ------------------------------------------------------------
 // Cambia el texto del elemento #phrase cada 2 segundos.
 // Las frases se guardan en un arreglo y se elige una al azar.
@@ -20,9 +20,9 @@ export function initPhrases(){
 
   // -------------------------------
   // 2) changePhrase(): muestra UNA frase aleatoria
-  //    Math.random() -> número entre 0 y 0.999...
-  //    * phrases.length -> lo escala hasta el tamaño del arreglo
-  //    Math.floor()    -> lo redondea hacia abajo (índice entero)
+  //    Math.random(): número entre 0 y 0.999...
+  //    * phrases.length: lo escala hasta el tamaño del arreglo
+  //    Math.floor(): lo redondea hacia abajo (índice entero)
   //    document.getElementById(...).innerText = texto
   //    Nota: innerText reemplaza el contenido HTML interno del
   //    elemento. Es el equivalente a "escribir" en la página.

@@ -1,5 +1,5 @@
 /* ============================================================
-   footer.css — PIE DE PÁGINA CON CORAZONES FLOTANTES
+   footer.css - PIE DE PÁGINA CON CORAZONES FLOTANTES
    ------------------------------------------------------------
    Uso de pseudo-elementos ::before y ::after para dibujar la
    fila de corazones sin necesidad de escribir HTML extra.
@@ -11,7 +11,7 @@
     overflow: hidden;     /* los corazones no deben salirse del footer */
     padding: 100px 20px;
     text-align: center;
-    /* Degradado vertical transparente → rosa muy suave */
+    /* Degradado vertical transparente a rosa muy suave */
     background: linear-gradient(
         180deg,
         rgba(255,255,255,0),

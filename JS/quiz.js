@@ -1,5 +1,5 @@
 // ============================================================
-// quiz.js — QUIZ INTERACTIVO + MÚSICA DE FONDO
+// quiz.js - QUIZ INTERACTIVO + MÚSICA DE FONDO
 // ------------------------------------------------------------
 // Controla el modal (.quiz-modal) que aparece con el botón
 // "Comenzar Quiz". También es el encargado de iniciar la música,
@@ -137,7 +137,7 @@ export function initQuiz(){
 
             // Al hacer clic en una opción:
             button.onclick = () => {
-                // Si el índice de la opción coincide con el correcto -> +1
+                // Si el índice de la opción coincide con el correcto, suma 1
                 if(index === q.correct){
                     score++;
                 }
@@ -196,7 +196,7 @@ export function initQuiz(){
         document.body.classList.remove("modal-open"); //Quitar modal-open del body
     });
 
-    // Botón "Intentar otra vez" -> reiniciar sin cerrar el modal
+    // Botón "Intentar otra vez": reiniciar sin cerrar el modal
     restartBtn.addEventListener("click", () => {
         resetQuiz();
     });
